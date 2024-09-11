@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark light;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+}
+
+.footer-app {
+  background-color: aqua;
+  margin-top: 16px;
+  color: white;
+  font-weight: 600;
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(20, 20, 32);
+}
+
+.tittle {
+  padding: 30px;
+}
+
+
+.logos {
+  display: flex;
+  padding: 40px;
+}
+
+.logos, .facebook .instagram .youtube {
+  width: 200px;
+  gap: 1rem;
+  padding: 3px;
+  background-color: white;
+  margin-left: 110px;
+  border-radius: 20px;
+}
